@@ -22,8 +22,6 @@ State is used to handle several things in your component:
 As mentioned before, it's important to know the difference between props and state. Props and state are used as input for the `render()` method to determine its output, but they are _not_ the same thing! The best way to figure out if data should go in props or state is to ask ourselves _'Will this data ever change?'_. If not, it's a prop. If it will, it should go in state! Keep in mind that whenever props _and/or_ state change, the component will run its `render()` method again.
 
 ## Setting initial state
-![An old radio thing](http://support.radioshack.com/support_tutorials/communications/Images/pro2067e_init.gif)
-
 Enough talk, let's see some more code! In this lesson, we'll focus on just setting the _initial state_. Since we're just setting the initial state, it will remind you very much of props (since the data won't change). Keep in mind, though, that we're able to _change_ this state whenever we want, making for a very powerful feature for dynamic components.
 
 You can follow along by running `npm install && npm start` in your terminal. The starter code to mount the React app is in `/src/index.js`. The component files are already prepped for you to add the code in this lesson.
